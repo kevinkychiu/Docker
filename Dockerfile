@@ -5,9 +5,7 @@ RUN \
 	apt-get install -y apt-transport-https ca-certificates
 
 RUN \
-	apt-get purge -y openjdk-\* && \
-	apt-get autoremove -y
-
+	apt-get purge -y openjdk-\*
 
 # add webupd8 repository
 RUN \
